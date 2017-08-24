@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTextStyle": "white", 
+    "navigationBarTitleText": "无锡星舞社", 
+    "backgroundColor": "fff",
+    "backgroundTextStyle": "dark", 
+    "enablePullDownRefresh": true, 
+    "onReachBottomDistance": 50 
+  },
+  "tabBar": {
+    "color": "#000", 
+    "selectedColor": "#1AAD16", 
+    "backgroundColor": "#fff", 
+    "borderStyle": "black", 
+    "list": [ 
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "", 
+        "selectedIconPath": "" 
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      }
+    ],
+    "position": "bottom" 
+  },
+  "networkTimeout": {
+    "request": 60000, 
+    "connectSocket": 60000, 
+    "uploadFile": 60000, 
+    "downloadFile": 60000
+  },
+  "debug": true
+}
